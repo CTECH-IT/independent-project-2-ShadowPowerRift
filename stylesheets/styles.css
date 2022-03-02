@@ -1,1 +1,31 @@
 /* Put your CSS here */
+
+body {
+    align-items: center;
+    background-color: rgba(14, 238, 14, 0.699);
+    background-image: none;
+}
+.frame {
+    width: 200px;
+    height: 100px;
+    background-color: azure;
+    border-width: 10px;
+}
+.frame2 {
+    width: 75 px
+}
+.p-one {
+    border-style: groove;
+    border-width: 2px;
+    box-shadow: 6px 4px 5px rgba(0, 0, 0, 0.411)
+}
+.button {
+
+}
+.h2 {
+  margin-left: 500px;
+}
+.backgroundimage {
+    float: right;
+    float: left;
+}
