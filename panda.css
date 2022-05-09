@@ -1,0 +1,10 @@
+.panda_home {
+    width: 100%;
+    height: 800px;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+}
