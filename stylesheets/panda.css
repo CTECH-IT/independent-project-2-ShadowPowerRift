@@ -64,6 +64,17 @@
     margin: 10px;
 }
 
+.panda_img {
+    width: 30%;
+    height: 500px;
+}
+
+.column {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+
 
 .panda_picsheader {
     margin: 10px;
@@ -86,7 +97,7 @@
 @media all and (max-width: 960px){ 
     .panda_home {
         width: 100%;
-        height: 200px;
+        height: 300px;
         padding: 0;
         margin: 0;
         align-items: center;
@@ -103,5 +114,21 @@
         width: 100px;
         display: flex;
     }
+    .panda_btn {
+        width: 50px;
+        height: 10px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        border-radius: 25px;
+        background-color: #00b712;
+        background-image: linear-gradient(315deg, #00b712 0%, #5aff15 74%);
+        margin: 10px;
+    }
+    .panda_h2 {
+        color: antiquewhite;
+        margin: 1px;
+    
+    }
+
 }
 
