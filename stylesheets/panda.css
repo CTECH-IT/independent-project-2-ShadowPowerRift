@@ -1,0 +1,107 @@
+.panda_home {
+    width: 100%;
+    height: 800px;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(/imgs/panda.png);
+    background-size: 100%;
+    box-sizing: border-box;
+
+}
+
+.panda_content {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    position: relative;
+    left: 400px;
+    flex-direction: column;
+}
+
+.panda_btn {
+    width: 150px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background-color: #00b712;
+    background-image: linear-gradient(315deg, #00b712 0%, #5aff15 74%);
+    margin: 10px;
+}
+
+
+.panda_h2 {
+    color: antiquewhite;
+    margin: 10px;
+
+}
+
+.panda_span1 {
+    margin: 10px;
+}
+
+.panda_btn:hover {
+    cursor: pointer;
+}
+
+.btn_text:hover {
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.divider {
+    background-color: #00b712;
+    background-image: linear-gradient(315deg, #00b712 0%, #5aff15 74%);
+    height: 10px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    width: 80px;
+    margin: 10px;
+}
+
+
+.panda_picsheader {
+    margin: 10px;
+}
+
+
+.panda_pics {
+    width: 100%;
+    height: 600px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+
+
+
+@media all and (max-width: 960px){ 
+    .panda_home {
+        width: 100%;
+        height: 200px;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        background-image: url(/imgs/panda.png);
+        background-size: 100%;
+        z-index: 0;
+    }
+
+    .panda_content {
+        z-index: 1;
+        height: 100px;
+        width: 100px;
+        display: flex;
+    }
+}
+
