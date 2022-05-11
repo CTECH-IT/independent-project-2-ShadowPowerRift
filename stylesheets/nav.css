@@ -95,6 +95,10 @@
   transition: all 0.3s ease;
 }
 
+#music {
+  background-color: #131313;
+  border: #131313;
+}
 
 @media all and (max-width: 960px){
   .navbar_container {
@@ -199,6 +203,13 @@
   #mobile_setup.is-active .bar:nth-child(3){
     transform:translateY(-8px) rotate(-45deg);
   }
+
+  #music {
+    background-color: #131313;
+    border: #131313;
+  }
+
+  
 }
 
 
