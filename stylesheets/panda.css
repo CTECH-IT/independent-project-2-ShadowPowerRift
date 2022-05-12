@@ -125,14 +125,17 @@
 
     .panda_content {
         z-index: 1;
-        height: 100px;
-        width: 100px;
+        height: 400px;
+        width: 250px;
         display: flex;
-        position: inherit;
+        position: relative;
+        flex-direction: column;
+        left: 30px;
+        top: 60px;
     }
     .panda_btn {
-        width: 50px;
-        height: 10px;
+        width: 100px;
+        height: 40px;
         -webkit-border-radius: 25px;
         -moz-border-radius: 25px;
         border-radius: 25px;
@@ -144,6 +147,14 @@
         color: antiquewhite;
         margin: 1px;
     
+    }
+    .column {
+        align-items: center !important;
+        width: 100%;
+
+    }
+    .panda_img {
+        transform: translate(19%);
     }
 
 }

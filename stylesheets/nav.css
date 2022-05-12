@@ -30,8 +30,9 @@
 
 
 #navbar_logo {
-  background-color: #ff8177;
-  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+  background-color: #7ee8fa;
+  background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+  
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -98,6 +99,10 @@
 #music {
   background-color: #131313;
   border: #131313;
+}
+
+#meme:hover {
+  color: #0fe8e8;
 }
 
 @media all and (max-width: 960px){
@@ -208,7 +213,10 @@
     background-color: #131313;
     border: #131313;
   }
-
+  
+  #meme:hover {
+    color: #0fe8e8;
+  }
   
 }
 
