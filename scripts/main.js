@@ -1,7 +1,5 @@
 // Put your JavaScript here
 const music = document.querySelector('#music');
-const buttonmeme = document.getElementById('meme')
-let meme = buttonmeme.getAttribute("class")
 
 
 let audio = new Audio();
@@ -12,6 +10,9 @@ music.addEventListener('click', function(){
     audio.loop = true;
 });
 
+
+const buttonmeme = document.getElementById('meme')
+let meme = buttonmeme.getAttribute("class")
 
 buttonmeme.setAttribute("type", "button")
 
