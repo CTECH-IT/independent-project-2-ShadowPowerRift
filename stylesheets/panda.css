@@ -149,8 +149,10 @@
     
     }
     .column {
-        align-items: center !important;
         width: 100%;
+        position: center;
+        display: flex;
+        flex-direction: row;
 
     }
     .panda_img {
