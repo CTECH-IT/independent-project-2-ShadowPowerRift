@@ -1,9 +1,14 @@
+
+// Thinks makes all the buttons and txt a variable 
+
 const button1 = document.getElementById('click1');
 const button2 = document.getElementById('click2');
 const button3 = document.getElementById('click3');
 const button4 = document.getElementById('click4');
 const txt = document.getElementById('about_txt');
 
+
+// This basically tells you when you click this button display this text 
 function txtChange() {
     txt.innerHTML = "The mission of Pandas International, a nonprofit organization, is to ensure the preservation and propagation of the endangered Giant Panda. Pandas International provides public awareness and education, support for research, habitat preservation and enhancement, and assistance to Giant Panda Centers";
 }

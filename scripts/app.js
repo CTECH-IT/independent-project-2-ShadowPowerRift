@@ -1,3 +1,6 @@
+
+// when the bars are touched it displays the navbar as a dropdown
+
 const menu = document.querySelector('#mobile_setup');
 const menuLinks = document.querySelector('.navbar_menu');
 

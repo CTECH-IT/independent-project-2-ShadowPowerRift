@@ -1,4 +1,6 @@
-// Put your JavaScript here
+//This basically plays music when music button is clicked 
+
+
 const music = document.querySelector('#music');
 
 
